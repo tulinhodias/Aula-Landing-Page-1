@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/a3bed33f3e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;"><a href="#">LOGO</a></h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#intro">Intro</a></li>
+                    <li><a href="#top3">Top 3</a></li>
+                    <li><a href="#gallery">Galeria</a></li>
+                    <li><a href="#grid-two">Grid</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    <div class="menu-spacing"></div>
+    <section id="home" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Janeiro nos traz o Evento 85</h2>
+                <p>Para encerrar janeiro, temos o orgulho de apresentar o lançamento do Evento 85. Nesta versão,
+                    oferecemos
+                    suporte para a pseudoclasse :focus-visible em CSS e ferramentas de desenvolvimento associadas, e a
+                    remoção completa do suporte a Flash do Firefox.</p>
+            </div>
+            <div class="intro-img">
+                <img src="img/javascript-not-optmize.svg" alt="logo javascript, html e css">
+            </div>
+        </div>
+    </section>
+    <section id="intro" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>TOP 3 JOBS</h2>
+            <p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and
+                some surprises at the machine’s performance. This post details some background information on the
+                experience of porting Firefox to run natively on these CPUs.</p>
+            <p>We’ll start with some background on the Mac transition and give an overview of Firefox internals that
+                needed to know about the new architecture, before moving on to the concept of Universal Binaries.</p>
+            <p>We’ll then explain how DRM/EME works on the new platform, talk about our experience with macOS Big Sur,
+                and discuss various updater problems we had to deal with. We’ll conclude with the release and an
+                overview of various other improvements that are in the pipeline.</p>
+        </div>
+    </section>
+    <section id="top3" class="grid-one main-bg section">
+        <div class="grid-one-content main-content">
+            <h2 class="grid-main-heading">Titulo do Top 3</h2>
+            <p class="grid-description">Breve descrição</p>
+            <div class="grid">
+                <article>
+                    <h3>Teste 1</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto cum odio, ex aspernatur quia
+                        totam,
+                        quod placeat veritatis, voluptatibus enim alias nostrum beatae temporibus amet quasi fugit
+                        culpa.
+                        Commodi, similique!</p>
+                </article>
+                <article>
+                    <h3>Teste 2</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto cum odio, ex aspernatur quia
+                        totam,
+                        quod placeat veritatis, voluptatibus enim alias nostrum beatae temporibus amet quasi fugit
+                        culpa.
+                        Commodi, similique!</p>
+                </article>
+                <article>
+                    <h3>Teste 3</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto cum odio, ex aspernatur quia
+                        totam,
+                        quod placeat veritatis, voluptatibus enim alias nostrum beatae temporibus amet quasi fugit
+                        culpa.
+                        Commodi, similique!</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="gallery" class="grid-one white-bg section">
+        <div class="grid-one-content main-content">
+            <h2 class="grid-main-heading">Titulo galeria</h2>
+            <p class="grid-description">Breve descrição</p>
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=1" alt="random image">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=2" alt="random image">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=3" alt="random image">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=4" alt="random image">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=5" alt="random image">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=6" alt="random image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="grid-two" class="grid-one main-bg section">
+        <div class="grid-one-content main-content">
+            <h2 class="grid-main-heading">Grid 3</h2>
+            <p class="grid-description">Breve descrição</p>
+            <div class="grid">
+                <article>
+                    <h3>Teste 1</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto cum odio, ex aspernatur quia
+                        totam,
+                        quod placeat veritatis, voluptatibus enim alias nostrum beatae temporibus amet quasi fugit
+                        culpa.
+                        Commodi, similique!</p>
+                </article>
+                <article>
+                    <h3>Teste 2</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto cum odio, ex aspernatur quia
+                        totam,
+                        quod placeat veritatis, voluptatibus enim alias nostrum beatae temporibus amet quasi fugit
+                        culpa.
+                        Commodi, similique!</p>
+                </article>
+                <article>
+                    <h3>Teste 3</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto cum odio, ex aspernatur quia
+                        totam,
+                        quod placeat veritatis, voluptatibus enim alias nostrum beatae temporibus amet quasi fugit
+                        culpa.
+                        Commodi, similique!</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="pricing" class="section white-bg">
+        <div class="pricing-content main-content">
+            <h2>Pricing</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam fuga voluptatum tempora accusantium
+                hic ipsam nemo perspiciatis rem maiores saepe corrupti libero voluptas consequuntur molestias, inventore
+                dolorum maxime quaerat minima.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam fuga voluptatum tempora accusantium
+                hic ipsam nemo perspiciatis rem maiores saepe corrupti libero voluptas consequuntur molestias, inventore
+                dolorum maxime quaerat minima.</p>
+            <div class="responsive-table">
+                <table>
+                    <caption>Pricing Table</caption>
+                    <thead>
+                        <tr>
+                            <th>Title 1</th>
+                            <th>Title 2</th>
+                            <th>Title 3</th>
+                            <th>Title 4</th>
+                            <th>Title 5</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Conten 1</td>
+                            <td>Conten 2</td>
+                            <td>Conten 3</td>
+                            <td>Conten 4</td>
+                            <td>Conten 5</td>
+                        </tr>
+                        <tr>
+                            <td>Conten 1</td>
+                            <td>Conten 2</td>
+                            <td>Conten 3</td>
+                            <td>Conten 4</td>
+                            <td>Conten 5</td>
+                        </tr>
+                        <tr>
+                            <td>Conten 1</td>
+                            <td>Conten 2</td>
+                            <td>Conten 3</td>
+                            <td>Conten 4</td>
+                            <td>Conten 5</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Testando</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact section main-bg">
+        <div class="main-content contact-content">
+            <div>
+                <h2>Contato</h2>
+                <p>Caso precise falar com nossa equipe entre em contato</p>
+            </div>
+            <div class="contact-img">
+                <img src="img/contact.svg" alt="imagem de contato">
+            </div>
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Contacte-me</legend>
+                    <div class="form-group">
+                        <label for="firstname">Primeiro Nome</label>
+                        <input type="text" id="firstname" name="firstname" placeholder="Digite seu primeiro nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="lastname">Ultimo Nome</label>
+                        <input type="text" id="lastname" name="lastname" placeholder="Digite seu ultimo nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Digite seu email">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" name="message" cols="30" rows="10"
+                            placeholder="Digite sua mensagem"></textarea>
+                    </div>
+                    <div class="form-group full-width">
+                        <button type="submit">Enviar mensagem</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p><a rel="nofolow" target="_blank" href="#">Feito com <span class="coracao"><i class="fa fa-coffee"></i></span>
+                por Marco</a></p>
+    </footer>
+</body>
+
+</html>
